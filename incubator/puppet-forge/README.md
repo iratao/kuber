@@ -3,7 +3,7 @@ Helm Chart: puppet-forge
 Distribute locally developed Puppet modules and proxy to the official Puppet Forge server.
 
 Container for running the puppet_forge_server project from Github. This
-project allow one to serve locally developed Puppet forge modules and
+project allows one to serve locally developed Puppet forge modules and
 proxy requests to an upstream Puppet forge server (typically the official
 server run by Puppetlabs).
 
