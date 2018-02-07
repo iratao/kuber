@@ -135,7 +135,7 @@ The following options are available to increase the exposure of the `api` port:
 
 ### Configuration of the `genesis.json`
 
-Burrow initializes any single blockchain via use of a `genesis.json` which defines what validators and accounts are given access to the permissioned blockchain when it is booted.
+Burrow initializes any single blockchain via the use of a `genesis.json` which defines what validators and accounts are given access to the permissioned blockchain when it is booted.
 
 Anyone that works with either the `monax` toolkit or `burrow` will be familiar with the `genesis.json`. This file is utilized by the blockchain nodes within the cluster to set up their initial state.
 
@@ -157,7 +157,7 @@ There are a few other considerations underpinning how this chart was developed.
 
 ### Deployments versus StatefulSets
 
-The first consideration is whether to utilize multiple deployments or a statefulSet. The chart maintainer has (to date) found it significantly easier to work with multiple deployments than with a statefulSet because the config files and keys differ subltely between and across each blockchain node. StatefulSets are currently not able to as elegantly handle the 1-to-1 linkages between the various key secrets and config files that are necessary to operate each blockchain node within the cluster.
+The first consideration is whether to utilize multiple deployments or a statefulSet. The chart maintainer has (to date) found it significantly easier to work with multiple deployments than with a statefulSet because the config files and keys differ subtly between and across each blockchain node. StatefulSets are currently not able to as elegantly handle the 1-to-1 linkages between the various key secrets and config files that are necessary to operate each blockchain node within the cluster.
 
 ### Running multiple chains within your cluster
 
