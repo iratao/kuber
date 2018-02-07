@@ -34,7 +34,7 @@ persistence:
   enabled: true
 ```
 
-If you want to create a `StorageClass` on other platform, please see documentation here [https://kubernetes.io/docs/user-guide/persistent-volumes/](https://kubernetes.io/docs/user-guide/persistent-volumes/)
+If you want to create a `StorageClass` on other platforms, please see documentation here [https://kubernetes.io/docs/user-guide/persistent-volumes/](https://kubernetes.io/docs/user-guide/persistent-volumes/)
 
 
 ## Install Chart with specific cluster size
@@ -68,7 +68,7 @@ nodes:
 
 ## Configuration
 
-The following tables lists the configurable parameters of the Cassandra chart and their default values.
+The following tables list the configurable parameters of the Cassandra chart and their default values.
 
 | Parameter                  | Description                                     | Default                                                    |
 | -----------------------    | ---------------------------------------------   | ---------------------------------------------------------- |
