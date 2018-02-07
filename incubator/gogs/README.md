@@ -38,7 +38,7 @@ chart and deletes the release.
 
 ## Configuration
 
-The following tables lists some of the configurable parameters of the Gogs
+The following tables list some of the configurable parameters of the Gogs
 chart and their default values.
 
 | Parameter                        | Description                                                  | Default                                                    |
@@ -53,7 +53,7 @@ chart and their default values.
 | `postgresql.postgresDatabase`    | PostgreSQL Database to create                                | `gogs`                                                     |
 | `postgresql.persistence.enabled` | Enable PostgreSQL persistence using Persistent Volume Claims | `true`                                                     |
 
-See [values.yaml](values.yaml) for a more complete list, and links to the Gogs documentation.
+See [values.yaml](values.yaml) for a complete list, and links to the Gogs documentation.
 
 Specify each parameter using the `--set key=value[,key=value]` argument to
 `helm install`.
