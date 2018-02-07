@@ -15,7 +15,7 @@ This Helm chart simplifies the deployment of [goldfish](https://github.com/Caiye
      https://github.com/tuannvm/charts/raw/tuan-vault-implementation/binary/vault-0.1.0.tgz
     ```
 
-    Alternatively Vault endpoint is provided. For more information on howto install Vault, check [here](https://www.vaultproject.io/docs/install/index.html)
+    Alternatively Vault endpoint is provided. For more information on how to install Vault, check [here](https://www.vaultproject.io/docs/install/index.html)
 
 ## Chart details
 
@@ -79,7 +79,7 @@ Use `helm get values` to get current User Supplied values
 helm get values goldfish
 ```
 
-Use `helm rollback [RELEASE] [REVISION]` to roll back to previous release
+Use `helm rollback [RELEASE] [REVISION]` to roll back to the previous release
 ```
 helm rollback goldfish 1
 
