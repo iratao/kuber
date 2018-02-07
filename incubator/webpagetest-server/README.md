@@ -98,7 +98,7 @@ To enable ingress integration, please set `ingress.enabled` to `true`
 ### Hosts
 Most likely you will only want to have one hostname that maps to this
 WebPageTest installation for scripts or end users to interact, then a
-seperate instance for the AMI's to operate on (see AgentIngress below).
+separate instance for the AMI's to operate on (see AgentIngress below).
 It is however possible to have more than one host.
 To facilitate this, the `ingress.hosts` object is an array.
 
@@ -168,7 +168,7 @@ Generally speaking WebPageTest is difficult to secure / restrict access. In crea
 a user would use the ingress listed above. The ingress above would have appropriate access restrictions using either
 whitelisted IP's, http basic auth or both.
 This however would block access to the agents without significant additional config. Agents in a remote region would
-probably need a region to region VPN to get access. Rather thn doing that we create a second host header and restrict
+probably need a region to region VPN to get access. Rather than doing that we create a second host header and restrict
 the url path to /work, /cron and /jpeginfo. The agents use /work and the server connects to itself on /cron and
 /jpeginfo. This way 3rd parties do not have access to create tests, but any host (with the correct keys) can get work
 units and post results.
