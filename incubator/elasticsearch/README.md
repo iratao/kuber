@@ -51,7 +51,7 @@ $ kubectl delete pvc -l release=my-release,component=data
 
 ## Configuration
 
-The following tables lists the configurable parameters of the elasticsearch chart and their default values.
+The following tables list the configurable parameters of the elasticsearch chart and their default values.
 
 |              Parameter               |                             Description                             |               Default                |
 | ------------------------------------ | ------------------------------------------------------------------- | ------------------------------------ |
@@ -133,7 +133,7 @@ would degrade performance heavily. The issue is tracked in
 ## Minimum Master Nodes
 > The minimum_master_nodes setting is extremely important to the stability of your cluster. This setting helps prevent split brains, the existence of two masters in a single cluster.
 
->When you have a split brain, your cluster is at danger of losing data. Because the master is considered the supreme ruler of the cluster, it decides when new indices can be created, how shards are moved, and so forth. If you have two masters, data integrity becomes perilous, since you have two nodes that think they are in charge.
+>When you have a split brain, your cluster is in danger of losing data. Because the master is considered the supreme ruler of the cluster, it decides when new indices can be created, how shards are moved, and so forth. If you have two masters, data integrity becomes perilous, since you have two nodes that think they are in charge.
 
 >This setting tells Elasticsearch to not elect a master unless there are enough master-eligible nodes available. Only then will an election take place.
 
