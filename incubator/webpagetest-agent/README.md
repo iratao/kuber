@@ -81,7 +81,7 @@ WebPageTest Server for work.
 ## WebPageTest Server Config
 At time of writing this chart the server has two means of config
 * Log onto the server and use vim or similar
-* Use the AWS/EC2 init scripts to configure some values, the login and use vim ir similar to configure the rest
+* Use the AWS/EC2 init scripts to configure some values, the login and use vim is similar to configure the rest
 As such these charts will get an environment up and working, but if you want more than defaults you will need to write your own config maps or update the WebPageTest Source for either the [server](https://github.com/WPO-Foundation/webpagetest) or the [agent](https://github.com/WPO-Foundation/wptagent)
 
 ### Defaults
