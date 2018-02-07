@@ -7,7 +7,7 @@ This helm chart creates a [Confluent Schema-Registry server](https://github.com/
 * A running Zookeeper Installation
 
 ## Chart Components
-This chart will dot he following:
+This chart will dot the following:
 
 * Create a Schema-Registry deployment
 * Create a Service configured to connect to the available Schema-Registry pods on the configured
@@ -54,7 +54,7 @@ $ helm install --name my-release -f values.yaml incubator/schema-registry
 > **Tip**: You can use the default [values.yaml](values.yaml)
 
 ### Parameters
-The following tables lists the configurable parameters of the SchemaRegistry chart and their default values.
+The following tables list the configurable parameters of the SchemaRegistry chart and their default values.
 
 | Parameter | Description | Default |
 | --------- | ----------- | ------- |
