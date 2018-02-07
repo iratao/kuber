@@ -33,7 +33,7 @@ $ helm install --name my-release incubator/etcd
 
 ## Configuration
 
-The following tables lists the configurable parameters of the etcd chart and their default values.
+The following tables list the configurable parameters of the etcd chart and their default values.
 
 | Parameter               | Description                        | Default                                                    |
 | ----------------------- | ---------------------------------- | ---------------------------------------------------------- |
@@ -109,7 +109,7 @@ etcd-1               1/1       Running   0          20s
 etcd-2               1/1       Running   0          1m
 ```
 
-You can check state of re-joining from ``etcd-1``'s logs:
+You can check the state of re-joining from ``etcd-1``'s logs:
 
 ```shell
 $ kubectl logs etcd-1
